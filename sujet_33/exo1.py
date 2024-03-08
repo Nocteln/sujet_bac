@@ -2,14 +2,11 @@ a = {'F':['B','G'], 'B':['A','D'], 'A':['',''], 'D':['C','E'], \
 'C':['',''], 'E':['',''], 'G':['','I'], 'I':['','H'], \
 'H':['','']}
 
-def taille(tab):
-    if len(tab) == 0:
+def taille(a, lettre):
+    if lettre == "":
         return 0
-    for el in tab:
-        # el = parent
-        # tab[el] = enfants
-        return 1+taille() + taille()
+    return 1 + taille(a, a[lettre][0]) + taille(a, a[lettre][1])
 
 
 
-taille(a)
+print(taille(a,"F"))
