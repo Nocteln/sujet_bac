@@ -26,5 +26,5 @@ def fusion(tab1,tab2):
     return tab12
 
 print(fusion([1, 6, 10],[0, 7, 8, 9]))
-print(fusion([1,2,3],[]))
+print(fusion([1,2,3],[])    )
 
