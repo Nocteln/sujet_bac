@@ -8,7 +8,7 @@ def insertion_abr(abr, val):
         return (None, val, None)
     f = [abr]
     noeud_actuel = f.pop(0)
-    print(noeud_actuels)
+    print(noeud_actuel)
     g, v, d = noeud_actuel
     if val < v:
         n = insertion_abr(g, val)
