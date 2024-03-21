@@ -2,6 +2,7 @@
 
 ## sujets compliqués :
 
+- n°24
 - n°26
 - n°29
 - n°33
