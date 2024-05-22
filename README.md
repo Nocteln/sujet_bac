@@ -1,4 +1,4 @@
-# [sujet_bac](https://pixees.fr/informatiquelycee/term/ep/index.html)
+# [sujet_bac](https://pixees.fr/informatiquelycee/term/)
 
 ## sujets compliqués :
 
